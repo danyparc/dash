@@ -85,7 +85,7 @@
     function clickHandlerSuc(evt, element) {
         let data = dataset.success
         let template = `<h5>Exito del ${data*100}% </h5>
-              <p class="red-text">K=${((1-data)*100).toFixed(3)}% de CIE's inválidos  </p>`
+              <h5 class="red-text">K=${((1-data)*100).toFixed(3)}% de CIE's inválidos  </h5>`
         document.getElementById('selectedAlgo').innerHTML = template
     }
 
