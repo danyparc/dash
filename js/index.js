@@ -73,8 +73,11 @@
     function clickHandler (evt, element) {
       if (element.length) {
         let data = dataset.algoritmos[element[0]._index]
-        let template = `<h5>Algoritmo #${data.algoritmo}</h5>
-<p>Acertó ${(data.score*100).toFixed(2)} veces (aprox) </p>`
+        let template = `<h5>#${data.algoritmo}</h5>
+        <object type="image/svg+xml" data="imagen">
+          Your browser does not support SVG
+        </object>
+<p>Acertó ${(data.score*100).toFixed(2)} veces (aprox) </p>`.replace('imagen',data.img)
         document.getElementById('selectedAlgo').innerHTML = template
       }
     }
