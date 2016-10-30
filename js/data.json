@@ -1,0 +1,12 @@
+{"algoritmos":[
+  {"algoritmo":"00", "score":0.2385},
+  {"algoritmo":"02", "score":0.0613},
+  {"algoritmo":"03", "score":0.0521},
+  {"algoritmo":"04", "score":0.1240},
+  {"algoritmo":"06", "score":0.0083},
+  {"algoritmo":"35", "score":0.0958},
+  {"algoritmo":"36", "score":0.2385},
+  {"algoritmo":"37", "score":0.1348}
+],
+"success":0.9533
+}
