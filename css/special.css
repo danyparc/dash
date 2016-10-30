@@ -27,7 +27,12 @@ li.logo {
 }
 .principal{
   font-size: 28px;
-  color: black;
+  color: white;
+  font-family: 'Rock Salt', cursive;
+  text-shadow: 4px 4px #0f0f00;
+}
+.morado{
+  background-color: #4d394b;
 }
 
 .niu-card{
