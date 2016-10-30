@@ -92,7 +92,12 @@
   }
 
   $(document).ready(function(){
+    $('.parallax').parallax();
+  });
+
+  $(document).ready(function(){
     $('.tabs-wrapper .row').pushpin({ top: $('.tabs-wrapper').offset().top });
   });
+
 
 }())
