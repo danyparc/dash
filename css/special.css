@@ -7,4 +7,32 @@ header, main, footer {
         padding-left: 0;
       }
     }
-          
+li.logo {
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 60px;
+}
+    #logo-container {
+        height: 57px;
+        margin-bottom: 32px;
+    }
+    nav.top-nav {
+        height: 122px;
+        box-shadow: none;
+        background-color: #D05422;
+    }
+    nav.top-nav a.page-title {
+    line-height: 122px;
+    font-size: 48px;
+}
+.principal{
+  font-size: 28px;
+  color: black;
+}
+
+.niu-card{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
